@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(180deg, rgb(248, 197, 56), #ee7009);
+}
+main{
+    background-color: rgb(26, 26, 26);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h2{
+    font-size: 1rem;
+    font-weight: 500;
+   
+}
+h1{
+    font-size: 1.8rem;
+}
+.secao{
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input, #x{
+   width: 3.5rem;
+   height: 2rem;
+   border-radius: 15%;
+   background-color: transparent;
+   color: white;
+   border: solid 0.1rem #db9327;
+   margin: 0.5rem;
+   font-size: 1rem;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 500;
+}
+
+#x{
+  
+    background: linear-gradient(180deg, rgb(248, 197, 56), #cc620b);
+
+}
+button{
+    background: linear-gradient(180deg, rgb(248, 197, 56), #cc620b);
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+}
